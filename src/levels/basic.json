@@ -1,0 +1,9 @@
+{
+    "basic": [
+        {
+            "index": 1,
+            "balls_count": 5,
+            "balls_required": 1
+        }
+    ]
+}

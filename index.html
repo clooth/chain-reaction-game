@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="css/core.css">
+</head>
+<body>
+    <canvas id="game"></canvas>
+    <script src="js/game.js"></script>
+    <script>
+        // Create a new game instance
+        var game = Game.get({
+            // Container element to draw game in
+            // Game width and height is defined by the container
+            container: document.getElementById('game')
+        });
+    </script>
+</body>
+</html>
